@@ -83,7 +83,7 @@ local buttons = {
 	val = {
 		button("w", "New file", "<cmd>ene <CR>"),
 		button("a", "Telescope", "<cmd>Telescope<CR>"),
-		button("s", "Resurrect session", "<leader>ls"),
+		button("s", "Resurrect session", "<cmd>SessionManager<CR>"),
 		button("q", "Mason LSP", "<cmd>Mason<CR>"),
 		button("e", "TSInstallInfo", "<cmd>TSInstallInfo<CR>"),
 		button("d", "Help", "<cmd>Telescope help_tags<CR>"),
